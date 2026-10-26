@@ -10,4 +10,5 @@ Use Python 3.12 and standard-library unittest. Run the complete offline suite
 before changes are handed off. Document changed formulas or interface contracts.
 No network access, dependency installation, external publication, data-license
 decision, deletion of user data or broker integration without explicit approval.
-The code license remains pending owner confirmation. Do not add MIT by inference.
+Original project code is MIT-licensed by explicit owner approval. This does not
+license third-party material or market data; never infer redistribution rights.

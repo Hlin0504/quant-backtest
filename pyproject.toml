@@ -4,6 +4,6 @@ version = "0.1.0"
 description = "Standalone offline synthetic backtesting and local HTML reports"
 requires-python = ">=3.12,<3.13"
 dependencies = []
+license = "MIT"
 
 # Source-checkout distribution: no build backend or package download required.
-# License deliberately omitted until the owner confirms the release license.

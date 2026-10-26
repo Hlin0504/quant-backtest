@@ -4,15 +4,15 @@ A small, deterministic Python foundation for **offline synthetic backtesting**
 and self-contained local HTML reports. It is a developer starting point, not a
 live-trading system, investment recommendation or general real-market platform.
 
-**Release status:** local release candidate. License and publication are pending
-owner approval. No MIT or other redistribution license has been granted yet.
+An **MIT-licensed reusable synthetic backtesting framework**, with no bundled
+proprietary market data. Copyright (c) 2026 Hlin0504. See [LICENSE](LICENSE).
 
 ## Setup / installation
 
 Use Python **3.12** on macOS or Linux with POSIX private-file permissions and
 exclusive atomic rename support. Windows report publication is not supported.
 There are no third-party runtime or test dependencies.
-After the approved repository is published, clone it and use a source checkout:
+Clone the public repository and use a source checkout:
 
 ```sh
 git clone https://github.com/Hlin0504/quant-backtest.git
@@ -22,7 +22,6 @@ source .venv/bin/activate
 python -m backtest_tool --help
 ```
 
-Before publication, use the prepared local directory in place of the clone step.
 Run commands from the checkout root. This v1 uses source-checkout installation:
 **no `pip install`, wheel build, private configuration or package download is
 needed**. Wheel/editable-install packaging is not implemented or claimed.
@@ -120,8 +119,10 @@ are not exchange-calendar evidence. Simulated fees/close marks are not actual
 fills, capacity, spread, impact, taxes or executable investment performance.
 
 No third-party or licensed dataset is bundled. Users must obtain and comply with
-all data licenses before any future real-data adapter is introduced. A future
-code license would not grant redistribution rights to market data or reports.
+all data licenses before any future real-data adapter is introduced. The MIT
+license covers original project code, not third-party material, market data or
+restricted reports. Standard-library modules are imported, not bundled or
+relicensed. No third-party runtime or test package is vendored.
 Keep credentials, data and generated outputs outside Git; `.gitignore` is not a
 substitute for reviewing staged files and repository history.
 

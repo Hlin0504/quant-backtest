@@ -1,16 +1,18 @@
-# Local release candidate inventory
+# Public source release inventory
 
-This candidate is a source-only, synthetic-workflow export. It contains no
+This release is a source-only, synthetic-workflow export. It contains no
 inherited history, study results, private settings, source-verification receipts,
 protected report publisher, data-provider client or licensed dataset. Code
-licensing and external publication are **pending owner approval**. There is no
-remote configured and no MIT license is implied.
+licensing and publication were explicitly approved by the owner. Original
+project code is MIT-licensed, Copyright (c) 2026 Hlin0504. No inherited tags,
+remotes or personal email metadata are included.
 
-## Exact tracked release inventory (25 files)
+## Exact tracked release inventory (26 files)
 
 ```text
 .gitignore
 AGENTS.md
+LICENSE
 README.md
 pyproject.toml
 backtest_tool/__init__.py
@@ -81,7 +83,20 @@ matched after the mechanical identifier-field rename and exclusion of the
 intentionally new configuration digest. This test used synthetic generation
 only; no private data or empirical outcome was opened or exported.
 
-Python 3.12 source-checkout installation in a fresh virtual environment and
-local clone must pass the documented run/report commands before publication.
+Python 3.12 source-checkout setup in a fresh virtual environment passed all
+67 tests and the documented synthetic run/report/reload commands. The final
+licensed release is rechecked before publication. Installation needs no private
+repository, local data directory, environment configuration or provider access.
 No third-party package installation is required. A conventional wheel/editable
 package installer is not part of this minimal candidate.
+
+## Redistribution review
+
+The selected reusable code was original project code exported under explicit
+owner authorization. No copied third-party copyright notices or vendored
+dependencies were found. Runtime imports are Python standard-library modules;
+those modules are not bundled or relicensed by this repository. The MIT license
+does not purport to license external data, reports or third-party material.
+No functionality, accounting formula or strategy parameter changed in the
+license/documentation release commit. Both commits use GitHub no-reply identity
+metadata and contain no original private Git history.
