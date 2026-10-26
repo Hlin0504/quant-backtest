@@ -1,0 +1,7 @@
+{
+  "version": "1.0",
+  "strategy_id": "periodic_equal_weight",
+  "assets": [990001, 990002],
+  "benchmark": 990003,
+  "cost_bps": "5"
+}

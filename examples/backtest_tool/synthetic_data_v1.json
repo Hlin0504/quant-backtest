@@ -1,0 +1,7 @@
+{
+  "version": "1.0",
+  "kind": "synthetic_generated_v1",
+  "dataset_id": "SYNTHETIC_PERSONAL_BACKTEST_DEMO",
+  "sessions": 190,
+  "assets": [990001, 990002, 990003]
+}
